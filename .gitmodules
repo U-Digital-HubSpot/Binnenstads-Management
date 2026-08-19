@@ -1,0 +1,8 @@
+[submodule ".cursor/skills"]
+	path = .cursor/skills
+	url = https://github.com/U-Digital-HubSpot/shared-skills.git
+	branch = main
+[submodule ".cursor/ppt-deck-library"]
+	path = .cursor/ppt-deck-library
+	url = https://github.com/U-Digital-HubSpot/ppt-deck-library.git
+	branch = main

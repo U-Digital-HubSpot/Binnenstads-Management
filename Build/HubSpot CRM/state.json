@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "clientName": "",
+  "portal": {
+    "hubId": null,
+    "accountName": ""
+  },
+  "design": {
+    "signoffDate": "",
+    "signoffBy": ""
+  },
+  "steps": {
+    "01-objects": {
+      "status": "pending",
+      "lastError": null
+    },
+    "02-properties": {
+      "status": "pending",
+      "lastError": null
+    },
+    "03-associations": {
+      "status": "pending",
+      "lastError": null
+    },
+    "04-pipelines": {
+      "status": "pending",
+      "lastError": null
+    },
+    "05-workflows": {
+      "status": "pending",
+      "lastError": null
+    }
+  },
+  "ids": {}
+}
