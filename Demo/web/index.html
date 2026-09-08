@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Platform Binnenstadsmanagement — Klantreis in HubSpot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <img src="logo.svg" alt="U Digital">
+        <div class="brand-copy">
+          <small>Demo walkthrough</small>
+          <strong>Platform BM</strong>
+        </div>
+      </div>
+      <nav class="nav" id="nav"></nav>
+      <p class="hint">Gebruik ← → of klik een slide. Klik op een mockup om te vergroten.</p>
+    </aside>
+
+    <main class="stage">
+      <div class="topbar">
+        <button id="prev" type="button">Vorige</button>
+        <div class="progress" aria-hidden="true"><span id="bar"></span></div>
+        <div class="counter" id="counter">1 / 17</div>
+        <button id="next" type="button">Volgende</button>
+      </div>
+
+      <div class="deck" id="deck">
+        <section class="slide cover" data-title="Cover">
+          <img class="cover-logo" src="logo.svg" alt="U Digital">
+          <div>
+            <h1>Klantreis in HubSpot</h1>
+            <p>Gemeente Dordrecht, van gesprek naar match</p>
+          </div>
+          <div class="cover-meta">
+            <div><span>Klant</span><strong>Platform Binnenstadsmanagement</strong></div>
+            <div><span>Datum</span><strong>8 september 2026</strong></div>
+            <div><span>Door</span><strong>U Digital</strong></div>
+          </div>
+        </section>
+
+        <section class="slide" data-title="Eén verhaal" data-group="Verhaal">
+          <div class="kicker">Het verhaal</div>
+          <h1>Eén stad. Eén verhaal.</h1>
+          <p class="lead">We volgen <strong>Gemeente Dordrecht</strong>. Sophie van Beek is contactpersoon binnenstad. Ze heeft een vraag over financiering van samenwerking met eigenaren — een thema dat in meer steden speelt.</p>
+          <p class="lead">Het uitvoerend team van Platform Binnenstadsmanagement faciliteert de koppeling. Jullie blijven tussen de steden staan. HubSpot helpt om gesprekken, thema's en vervolgacties op één plek vast te leggen.</p>
+          <p class="lead">Deze walkthrough loopt dat verhaal door. Daarna openen we HubSpot en klikken we dezelfde stappen.</p>
+          <div class="grid-3">
+            <article class="card"><h3>Ad</h3><p>Coördinatie en matchmaking-beslissingen.</p></article>
+            <article class="card"><h3>Janny</h3><p>Events, gesprekken en dagelijkse opvolging.</p></article>
+            <article class="card"><h3>Sophie</h3><p>Contactpersoon binnenstad bij Gemeente Dordrecht.</p></article>
+          </div>
+        </section>
+
+        <section class="slide" data-title="Jouw situatie" data-group="Verhaal">
+          <div class="kicker">Context</div>
+          <h1>Jouw situatie</h1>
+          <p class="lead">Platform Binnenstadsmanagement verbindt circa 70 binnensteden in Nederland en Vlaanderen met partners en kennisinstellingen. Het uitvoerend team werkt parttime. Leden betalen een lidmaatschap.</p>
+          <div class="pills">
+            <span class="pill">Microsoft Teams</span>
+            <span class="pill">Excel</span>
+            <span class="pill">City Connect</span>
+            <span class="pill">MailChimp</span>
+            <span class="pill">Twinfield</span>
+            <span class="pill">Website</span>
+          </div>
+          <div class="grid-5" style="margin-top:18px">
+            <article class="card"><h3>Gespreksdata</h3><p>Verspreid over Excel, Teams en e-mail.</p></article>
+            <article class="card"><h3>Matchmaking</h3><p>Handmatig zoeken wie hetzelfde vraagstuk heeft.</p></article>
+            <article class="card"><h3>Afspraken</h3><p>Geen centraal overzicht per stad.</p></article>
+            <article class="card"><h3>Events</h3><p>Aanmelding en opvolging via losse kanalen.</p></article>
+            <article class="card"><h3>Engagement</h3><p>Weinig zicht op activiteit per lid.</p></article>
+          </div>
+        </section>
+
+        <section class="slide" data-title="Matchmaking" data-group="Scenario 1">
+          <div class="kicker">Scenario 1</div>
+          <h1>Matchmaking na een stadsgesprek</h1>
+          <div class="journey">
+            <span>Teams-gesprek</span>
+            <span>Verslag in HubSpot</span>
+            <span>Thema taggen</span>
+            <span>Zoeken op match</span>
+            <span>Intro faciliteren</span>
+          </div>
+          <p class="lead">Sophie bespreekt in Teams een gevoelige vraag over financiering van samenwerking met eigenaren. Het gesprek wordt opgenomen en komt op het record van Gemeente Dordrecht.</p>
+          <p class="lead">Janny tagt het thema en zoekt welke andere steden dezelfde vraag hebben of daar ervaring mee hebben. Steden zien elkaars data niet zelf — jullie faciliteren de koppeling.</p>
+        </section>
+
+        <section class="slide" data-title="Nu en straks" data-group="Scenario 1">
+          <div class="kicker">Scenario 1</div>
+          <h1>Van Excel naar één stad-record</h1>
+          <div class="compare">
+            <article class="now">
+              <h3>Nu</h3>
+              <ul>
+                <li>Gespreksverslag in Excel</li>
+                <li>Handmatig zoeken op thema</li>
+                <li>Context zit bij collega's</li>
+              </ul>
+            </article>
+            <article class="later">
+              <h3>Straks</h3>
+              <ul>
+                <li>Gesprek en samenvatting op het stad-record</li>
+                <li>Filter op open vraag vs. expertise</li>
+                <li>Collega ziet direct wat openstaat</li>
+              </ul>
+            </article>
+          </div>
+          <div class="steps">
+            <div class="step"><b>1</b><span>Teams-gesprek met Sophie van Beek</span><span class="who">Ad / Janny</span></div>
+            <div class="step"><b>2</b><span>Transcript en samenvatting op company-record</span><span class="who">HubSpot + Teams</span></div>
+            <div class="step"><b>3</b><span>Thema en vertrouwelijkheid vastleggen</span><span class="who">Janny</span></div>
+            <div class="step"><b>4</b><span>Lijst met steden op zelfde thema</span><span class="who">Janny</span></div>
+            <div class="step"><b>5</b><span>Match faciliteren Dordrecht ↔ Nijmegen</span><span class="who">Ad</span></div>
+          </div>
+        </section>
+
+        <section class="slide" data-title="Datamodel" data-group="Scenario 1">
+          <div class="kicker">Scenario 1</div>
+          <h1>Het datamodel</h1>
+          <p class="lead"><strong>Bedrijf</strong> is de stad. <strong>Contact</strong> zijn de personen. Twee custom objects maken matchmaking schaalbaar: <strong>Thema</strong> (jullie taxonomie) en <strong>Matchmaking-vraag</strong> (concrete vraag of expertise per stad).</p>
+          <div class="grid-3">
+            <article class="card"><h3>Thema</h3><p>Hoofdthema + subthema, bv. Samenwerking → Financiën.</p></article>
+            <article class="card"><h3>Matchmaking-vraag</h3><p>Open vraag of expertise, gekoppeld aan stad en thema.</p></article>
+            <article class="card"><h3>Stad-record</h3><p>Meetings, notities, taken en engagement score.</p></article>
+          </div>
+          <p class="caption" style="margin-top:14px">Klik op de afbeelding om te vergroten.</p>
+          <div class="mockup-frame">
+            <img src="../assets/datamodel-matchmaking.png" alt="Datamodel matchmaking met custom object Thema">
+          </div>
+        </section>
+
+        <section class="slide" data-title="Breeze" data-group="Scenario 1">
+          <div class="kicker">Scenario 1</div>
+          <h1>Handmatig en via Breeze</h1>
+          <div class="compare">
+            <article class="now">
+              <h3>Handmatig</h3>
+              <ul>
+                <li>Matchmaking-vraag aanmaken na gesprek</li>
+                <li>Thema kiezen uit de taxonomie</li>
+                <li>Status en vertrouwelijkheid zelf invullen</li>
+              </ul>
+            </article>
+            <article class="later">
+              <h3>Via Breeze (met review)</h3>
+              <ul>
+                <li>Samenvatting uit Teams-transcript</li>
+                <li>Thema-voorstel op basis van gesprek</li>
+                <li>Voorstel matchmaking-vraag — jij bevestigt</li>
+              </ul>
+            </article>
+          </div>
+          <p class="note">Breeze doet het voorwerk. Jullie team keurt altijd goed voordat een koppeling tussen steden plaatsvindt.</p>
+        </section>
+
+        <section class="slide" data-title="Stad-record" data-group="Scenario 1">
+          <div class="kicker">Scenario 1 · mockup</div>
+          <h1>Stad-record Gemeente Dordrecht</h1>
+          <p class="caption">Gesprekssamenvatting en open vraag. Klik op de afbeelding om te vergroten.</p>
+          <div class="mockup-frame">
+            <img src="../assets/matchmaking-record.png" alt="Stad-record Gemeente Dordrecht">
+          </div>
+        </section>
+
+        <section class="slide" data-title="Match-lijst" data-group="Scenario 1">
+          <div class="kicker">Scenario 1 · mockup</div>
+          <h1>Steden met hetzelfde thema</h1>
+          <p class="caption">Klik op de afbeelding om te vergroten.</p>
+          <div class="mockup-frame">
+            <img src="../assets/matchmaking-lijst.png" alt="Overzicht steden met hetzelfde thema">
+          </div>
+        </section>
+
+        <section class="slide" data-title="Event-aanmelding" data-group="Scenario 2">
+          <div class="kicker">Scenario 2</div>
+          <h1>Event-aanmelding en gerichte uitnodiging</h1>
+          <div class="journey">
+            <span>Event op website</span>
+            <span>Aanmelding in HubSpot</span>
+            <span>Bevestiging</span>
+            <span>Herinnering</span>
+            <span>Deelnemerslijst</span>
+          </div>
+          <p class="lead">De Dag voor de Binnenstad heeft een deelsessie over samenwerking met eigenaren. Sophie meldt zich aan via het formulier op jullie website.</p>
+          <p class="lead">Ze krijgt een bevestiging en een herinnering. Janny trekt met één klik een deelnemerslijst. Steden met interesse in dit thema kunnen proactief worden uitgenodigd.</p>
+        </section>
+
+        <section class="slide" data-title="Event-stappen" data-group="Scenario 2">
+          <div class="kicker">Scenario 2</div>
+          <h1>Van website naar deelnemerslijst</h1>
+          <div class="compare">
+            <article class="now">
+              <h3>Nu</h3>
+              <ul>
+                <li>Aanmelding handmatig opvolgen</li>
+                <li>Bevestiging los versturen</li>
+                <li>Deelnemerslijst in Excel</li>
+              </ul>
+            </article>
+            <article class="later">
+              <h3>Straks</h3>
+              <ul>
+                <li>Formulier vult contact automatisch aan</li>
+                <li>Workflow stuurt mails op vaste momenten</li>
+                <li>Lijst en export uit één systeem</li>
+              </ul>
+            </article>
+          </div>
+          <div class="steps">
+            <div class="step"><b>1</b><span>Sophie meldt zich aan op de website</span><span class="who">Sophie</span></div>
+            <div class="step"><b>2</b><span>Contact gekoppeld aan Gemeente Dordrecht</span><span class="who">HubSpot</span></div>
+            <div class="step"><b>3</b><span>Bevestigingsmail automatisch verstuurd</span><span class="who">Workflow</span></div>
+            <div class="step"><b>4</b><span>Herinnering 7 dagen voor het event</span><span class="who">Workflow</span></div>
+            <div class="step"><b>5</b><span>Deelnemerslijst exporteren</span><span class="who">Janny</span></div>
+          </div>
+        </section>
+
+        <section class="slide" data-title="Formulier" data-group="Scenario 2">
+          <div class="kicker">Scenario 2 · mockup</div>
+          <h1>Aanmelding via website</h1>
+          <p class="caption">Klik op de afbeelding om te vergroten.</p>
+          <div class="mockup-frame">
+            <img src="../assets/event-aanmelding.png" alt="Aanmelding via website naar HubSpot">
+          </div>
+        </section>
+
+        <section class="slide" data-title="Engagement" data-group="Scenario 3">
+          <div class="kicker">Scenario 3</div>
+          <h1>Engagement per lidmaatschap</h1>
+          <div class="journey">
+            <span>Data verzamelen</span>
+            <span>Score berekenen</span>
+            <span>Signaal bij daling</span>
+            <span>Taak aan team</span>
+            <span>Proactief contact</span>
+          </div>
+          <p class="lead">HubSpot combineert signalen per stad: event-deelname, e-mailreacties, matchmaking-contact en openstaande vragen.</p>
+          <p class="lead">Gemeente Dordrecht scoort gemiddeld. Janny krijgt een taak om contact op te nemen. Het bestuur ziet welke steden extra aandacht nodig hebben.</p>
+        </section>
+
+        <section class="slide" data-title="Engagement-stappen" data-group="Scenario 3">
+          <div class="kicker">Scenario 3</div>
+          <h1>Proactief ingrijpen bij dalende score</h1>
+          <div class="compare">
+            <article class="now">
+              <h3>Nu</h3>
+              <ul>
+                <li>Geen overzicht per lid</li>
+                <li>Open vragen in Excel of mail</li>
+                <li>Proactief contact op gevoel</li>
+              </ul>
+            </article>
+            <article class="later">
+              <h3>Straks</h3>
+              <ul>
+                <li>Engagement score per stad</li>
+                <li>Taken en signalen op het record</li>
+                <li>Dashboard voor het bestuur</li>
+              </ul>
+            </article>
+          </div>
+          <div class="steps">
+            <div class="step"><b>1</b><span>HubSpot berekent engagement per stad</span><span class="who">HubSpot</span></div>
+            <div class="step"><b>2</b><span>Dordrecht scoort onder drempel — taak voor Janny</span><span class="who">Workflow</span></div>
+            <div class="step"><b>3</b><span>Janny belt Sophie over open vraag en sessie</span><span class="who">Janny</span></div>
+            <div class="step"><b>4</b><span>Bestuur bekijkt dashboard</span><span class="who">Ad</span></div>
+          </div>
+          <p class="note"><strong>Aanname tot we bevestigen:</strong> de volledige Customer Success Workspace vereist Service Hub Enterprise. In de demo tonen we het principe via engagement score en taken.</p>
+        </section>
+
+        <section class="slide" data-title="Dashboard" data-group="Scenario 3">
+          <div class="kicker">Scenario 3 · mockup</div>
+          <h1>Dashboard engagement</h1>
+          <p class="caption">Klik op de afbeelding om te vergroten.</p>
+          <div class="mockup-frame">
+            <img src="../assets/engagement-dashboard.png" alt="Dashboard engagement per lidmaatschap">
+          </div>
+        </section>
+
+        <section class="slide" data-title="HubSpot openen" data-group="Portal">
+          <div class="kicker">Live demo</div>
+          <h1>Daarna openen we HubSpot</h1>
+          <p class="lead">Het verhaal hierboven is de use case. In de portal klikken we dezelfde stappen. Klik op een rij om naar dat scenario te springen.</p>
+          <div class="portal-list">
+            <button data-go="7"><b>1</b><span>Company-record Gemeente Dordrecht openen</span><span class="who">Scenario 1</span></button>
+            <button data-go="7"><b>2</b><span>Meeting op timeline + samenvatting bekijken</span><span class="who">Scenario 1</span></button>
+            <button data-go="5"><b>3</b><span>Datamodel: Thema + Matchmaking-vraag</span><span class="who">Scenario 1</span></button>
+            <button data-go="8"><b>4</b><span>Lijst/filter op thema financiering samenwerking</span><span class="who">Scenario 1</span></button>
+            <button data-go="11"><b>5</b><span>Event-formulier op website + testinzending</span><span class="who">Scenario 2</span></button>
+            <button data-go="10"><b>6</b><span>Workflow bevestiging en herinnering tonen</span><span class="who">Scenario 2</span></button>
+            <button data-go="7"><b>7</b><span>Engagement score op company-record</span><span class="who">Scenario 3</span></button>
+            <button data-go="14"><b>8</b><span>Dashboard lidmaatschap en event-deelname</span><span class="who">Scenario 3</span></button>
+            <button data-go="6"><b>9</b><span>Breeze: thema en matchmaking-vraag voorstellen</span><span class="who">Scenario 1</span></button>
+          </div>
+          <p class="note"><strong>Later:</strong> koppeling met City Connect, volledig ledenportaal en Twinfield vallen buiten de eerste fase.</p>
+        </section>
+
+        <section class="slide" data-title="Open vragen" data-group="Portal">
+          <div class="kicker">Open vragen</div>
+          <h1>Wat we nog van jullie nodig hebben</h1>
+          <div class="steps">
+            <div class="step"><b>1</b><span>Wie beslist formeel tussen HubSpot en Dynamics — en op welke criteria?</span><span class="who">Samen</span></div>
+            <div class="step"><b>2</b><span>Hebben jullie de thema-taxonomie voor matchmaking al op papier?</span><span class="who">Samen</span></div>
+            <div class="step"><b>3</b><span>Hoeveel HubSpot-gebruikers worden het: alleen het uitvoerend team of ook bestuursleden?</span><span class="who">Samen</span></div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+    <img alt="">
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

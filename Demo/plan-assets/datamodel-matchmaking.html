@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="nl"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../.cursor/skills/hubspot-library/plan-visuals/kit.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>body{margin:0;padding:20px;background:#e9eef3;}</style>
+</head><body>
+<div class="hs">
+  <div class="hs-topnav">
+    <div class="hs-logo">H</div>
+    <span class="nav-item active">Contacten</span><span class="nav-item">Marketing</span><span class="nav-item">Service</span>
+    <span class="nav-spacer"></span><span class="hs-search">Zoeken…</span>
+    <span class="hs-userpill"><span class="hs-av orange">JE</span>Janny ▾</span>
+  </div>
+  <div class="hs-canvas">
+    <div class="hs-page-head">
+      <div><span class="hs-h1 sm" style="margin:0">Datamodel matchmaking</span></div>
+      <span class="hs-badge grey">Stad als centrale kaart</span>
+    </div>
+    <div class="hs-subtabs" style="margin-top:-6px">
+      <span class="t active">Objecten</span><span class="t">Associaties</span><span class="t">Eigenschappen</span>
+    </div>
+    <div class="hs-chain">
+      <div class="hs-obj">
+        <div class="badge" style="background:#2b7de9">C</div>
+        <div class="name">Contact</div><div class="kind">Standaard</div>
+        <div class="prop">Rol in binnenstad</div><div class="prop">Thema-voorkeuren</div><div class="prop">Primair contact</div>
+      </div>
+      <div class="hs-arrow">›</div>
+      <div class="hs-obj hl">
+        <div class="badge" style="background:#ff5c35">S</div>
+        <div class="name">Bedrijf (stad)</div><div class="kind">Centrale kaart</div>
+        <div class="prop">Lidmaatschapstype</div><div class="prop">Engagement score</div><div class="prop">Vertrouwelijkheid</div>
+      </div>
+      <div class="hs-arrow">›</div>
+      <div class="hs-obj">
+        <div class="badge" style="background:#c14a24">M</div>
+        <div class="name">Matchmaking-vraag</div><div class="kind">Custom object</div>
+        <div class="prop">Type: vraag / expertise</div><div class="prop">Status open/gesloten</div><div class="prop">Bron: meeting</div>
+      </div>
+      <div class="hs-arrow">›</div>
+      <div class="hs-obj">
+        <div class="badge" style="background:#7c6cf0">T</div>
+        <div class="name">Thema</div><div class="kind">Custom object</div>
+        <div class="prop">Hoofdthema</div><div class="prop">Subthema</div><div class="prop">Bovenliggend thema</div>
+      </div>
+      <div class="hs-arrow">›</div>
+      <div class="hs-obj">
+        <div class="badge" style="background:#12a89d">↔</div>
+        <div class="name">Koppeling</div><div class="kind">Associatie</div>
+        <div class="prop">Stad ↔ stad</div><div class="prop">Vraag ↔ thema</div><div class="prop">Meeting op timeline</div>
+      </div>
+    </div>
+    <div class="hs-note"><strong>Bedrijf (stad)</strong> is het startpunt. <strong>Thema</strong> is een apart object met hoofd- en subthema (bv. Samenwerking → Financiën). <strong>Matchmaking-vraag</strong> koppelt een stad aan één of meer thema's. Meetings en notities hangen op de stad.</div>
+  </div>
+</div>
+</body></html>
